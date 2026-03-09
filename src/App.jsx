@@ -26,9 +26,14 @@ function App() {
   </p>
 
   <div className="flex justify-center gap-6">
-    <button className="px-6 py-2 bg-gray-900 text-white rounded-full hover:bg-black transition duration-300">
-      View Projects
-    </button>
+  <a 
+href="/resume.pdf"
+target="_blank"
+rel="noopener noreferrer"
+className="px-6 py-2 bg-gray-900 text-white rounded-full hover:bg-black transition duration-300"
+>
+View Resume
+</a>
 
     <button className="px-6 py-2 border border-gray-900 text-gray-900 rounded-full hover:bg-gray-100 transition duration-300">
       Contact
